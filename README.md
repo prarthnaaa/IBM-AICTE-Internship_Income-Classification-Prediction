@@ -17,10 +17,10 @@ It aims to build a machine learning model and deploy a web application that pred
 📁 prarthnaaa/
 ├── app.py                                # Streamlit web app
 ├── income_predictor.ipynb                # Model training and evaluation notebook
-├── dataset.csv                           # Cleaned input dataset
+├── dataset.csv                           # Original dataset used for training
 ├── best_model.pkl                        # Trained XGBoost model
 ├── encoders.pkl                          # Label encoders for categorical features
-├── model_test_dataset.csv                # Dataset with predictions
+├── model_test_dataset.csv                # Copy of dataset.csv (with 'income' column removed to test batch predictions from CSV file)
 ├── 2025-07-21T14-48_export.csv           # Streamlit export with predicted income
 ├── PrarthnaPuhan-IBMProject_PPT.pptx     # Project presentation
 └── README.md                             # Project documentation
