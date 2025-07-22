@@ -20,7 +20,7 @@ It aims to build a machine learning model and deploy a web application that pred
 ├── dataset.csv                           # Original dataset used for training
 ├── best_model.pkl                        # Trained XGBoost model
 ├── encoders.pkl                          # Label encoders for categorical features
-├── model_test_dataset.csv                # Copy of dataset.csv (with 'income' column removed to test batch predictions from CSV file)
+├── model_test_dataset.csv                # Copy of dataset.csv (with 'income' column removed to test batch predictions from CSV file in web app)
 ├── 2025-07-21T14-48_export.csv           # Streamlit export with predicted income
 ├── PrarthnaPuhan-IBMProject_PPT.pptx     # Project presentation
 └── README.md                             # Project documentation
