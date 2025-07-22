@@ -60,7 +60,6 @@ for col in categorical_cols:
     if col in input_df.columns:
         input_df[col] = encoders[col].transform(input_df[col])
 
-# Fix column order
 input_df = input_df[feature_order]
 
 if st.button("Predict Income"):
